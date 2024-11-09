@@ -1,1 +1,2 @@
 # E_commerce_site
+![alt text](public/1.png) ![alt text](public/2.png) ![alt text](public/3.png) ![alt text](public/4.png) ![alt text](public/5.png) ![alt text](public/6.png) ![alt text](public/7.png) ![alt text](public/8.png) ![alt text](public/9.png) ![alt text](public/10.png)
