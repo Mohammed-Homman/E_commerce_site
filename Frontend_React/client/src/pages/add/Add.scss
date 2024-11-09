@@ -1,0 +1,108 @@
+.add {
+  display: flex;
+  justify-content: center;
+  // background-image: url('../../assets//rosebg.jpg');
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
+  
+
+  .container {
+    width: 1400px;
+    padding: 50px 0px;
+    backdrop-filter: blur(15px);
+    border-radius: 40px;
+    padding: 2rem 4rem;
+
+    h1 {
+      width: max-content;
+      margin-bottom: 30px;
+      //color: white;
+      color: black;
+      font-weight: 300;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+
+      label {
+        //color: white;
+        color: black;
+        font-size: 18px;
+      }
+
+      .info,
+      .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+
+        input,
+        select,
+        textarea {
+          padding: 20px;
+          background: rgba(255, 255, 255, 0.7);
+          
+          
+          color: black;
+          outline: none;
+        }
+
+        .images{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .imagesInputs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+        }
+
+        button {
+          border: none;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 18px;
+          background-color: black;
+          cursor: pointer;
+          border-radius: 20px;
+        }
+
+        .add{
+          display: flex;
+          justify-content: space-between;
+          background: transparent;
+
+          input{
+            width: 80%;
+            color: black;
+          }
+        }
+
+        .addedFeatures{
+          display: flex;
+          gap: 20px;
+
+          button{
+            height: 30px;
+            font-size: 17px;
+            font-weight: 400;
+            background: transparent;
+            color: red;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
